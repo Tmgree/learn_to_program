@@ -1,5 +1,5 @@
 def roman(n)
-    if n>999
+   
 somenumber=n%1000
 thousand=n-somenumber
 somenumber2=somenumber%100
@@ -48,7 +48,7 @@ end
 end
 
 
-end
+
 
 
 
