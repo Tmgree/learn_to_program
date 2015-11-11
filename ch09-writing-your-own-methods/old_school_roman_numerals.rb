@@ -28,7 +28,7 @@ if c>0 &&c<4
     elsif c==5
     roman2=roman1+"L"
     elsif c>5 && c<9
-    roman2=roman1+"L"+(c%5)*"X"
+    roman2=roman1+"L"+"X"*(c%5)
 else
     roman2=roman1+"XC"
 end
@@ -40,7 +40,7 @@ if d>0 && d<4
     elsif d==5
     roman3=roman2+"V"
     elsif d>5 && d<9
-    roman3=roman2+"V"+(d%5)*"I"
+    roman3=roman2+"V"+"I"*(d%5)
 else
     roman3=roman2+"IX"
 end
