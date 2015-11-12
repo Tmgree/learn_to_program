@@ -42,7 +42,10 @@ def english_number(nn)
       b="Eighty" elsif m[1]==9
       b="ninety" 
       elsif m[1]==0
-      c="" 
+      b="" 
+      elsif m[1]==nil
+      b=""
+      
   end
   end
   if m[0]==1 && m[1]!=1
@@ -71,6 +74,8 @@ def english_number(nn)
       c="nine Hundred" 
       elsif m[2]==0
       c="" 
+      elsif m[2]==nil
+      c=""
   end
  c+" and "+b+a
 end
